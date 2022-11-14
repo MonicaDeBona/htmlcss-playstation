@@ -1,6 +1,7 @@
 /* ROOT */
 :root{
     --sonybar-bg-color: black;
+    --footer-bg-color: #00439c;
 }
 
 .s-bar-bg {
@@ -21,6 +22,27 @@ body {
 
 .jumbotron {
     background-color: rgb(64, 126, 219);
+}
+
+.bg-footer {
+    background-color: var(--footer-bg-color);
+}
+
+.globe {
+    width: 20px;
+}
+
+.sie {
+    width: 120px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 0;
 }
 
 
