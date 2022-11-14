@@ -16,7 +16,7 @@ body {
     height: 50px;
 }
 
-.main-logo {
+.sony-logo {
     width: 80px;
 }
 
@@ -29,16 +29,20 @@ body {
 }
 
 .globe {
-    width: 20px;
+    width: 18px;
 }
 
 .sie {
     width: 120px;
 }
 
-a {
+.link a {
     color: white;
     text-decoration: none;
+}
+
+footer p a {
+    color: white;
 }
 
 footer p {
