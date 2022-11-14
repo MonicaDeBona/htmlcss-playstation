@@ -1,0 +1,20 @@
+/* ROOT */
+:root{
+    --sonybar-bg-color: black;
+}
+
+.s-bar-bg {
+    background-color: var(--sonybar-bg-color);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sony-bar {
+    height: 50px;
+}
+
+.main-logo {
+    width: 80px;
+}
