@@ -108,6 +108,9 @@ header {
     z-index: 1;
 }
 
+.lens {
+    width: 1.5rem;
+}
 
 header .nav-link {
     color: black;
