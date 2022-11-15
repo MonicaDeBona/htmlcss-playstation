@@ -70,6 +70,10 @@
     color: var(--text-color2);
 }
 
+
+
+
+
 .border-b {
     border: 3px solid var(--text-color);
 }
@@ -83,15 +87,6 @@
     transform: translateY(-10px);
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
-
-
-
-
-
-
-
-
-
 
 
 .my-wrapper {
@@ -121,10 +116,11 @@ header .nav-link:hover {
     color: var(--text-color);
 }
 
-.shadow-d-down:focus,
-.shadow-d-down:hover {
+nav:focus,
+nav:hover {
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
+
 
 
 .shared-hover:hover {
