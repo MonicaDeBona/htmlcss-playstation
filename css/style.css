@@ -2,31 +2,92 @@
 :root{
     --sonybar-bg-color: black;
     --footer-bg-color: #00439c;
+    --main-bg-color: #1f1f1f;
+    --orange-button: #cd3d0f;
+    --gray-button: #363636;
+    --blue-button: #2d64e6;
+    --text-color: #117bd1;
+    --text-color1: #727272;
 }
 
 .s-bar-bg {
     background-color: var(--sonybar-bg-color);
 }
 
+.g-btn {
+    background-color: var(--gray-button);
+}
+
+.o-btn {
+    background-color: var(--orange-button);
+}
+
+.b-btn {
+    background-color: var(--blue-button);
+}
+
+.nr-bg {
+    background-color: var(--main-bg-color);
+}
+
+.bg-footer {
+    background-color: var(--footer-bg-color);
+}
+
+.text-clr-b {
+    color: var(--text-color);
+}
+
+.text-clr-g {
+    color: var(--text-color1);
+}
+
+
+
+
+
+
+
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#sony-bar {
-    height: 50px;
+.my-wrapper {
+    width: 98%;
+    margin: auto;
 }
 
 .sony-logo {
     width: 80px;
 }
 
-.jumbotron {
-    background-color: rgb(64, 126, 219);
+.jumbo-returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    padding-top: 200px;
 }
 
-.bg-footer {
-    background-color: var(--footer-bg-color);
+.op-img {
+    opacity: 50%;
 }
+
+.op-img:hover {
+    opacity: 100%;
+}
+
+.jumbo-takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+}
+
 
 .globe {
     width: 18px;
@@ -36,10 +97,10 @@ body {
     width: 120px;
 }
 
-.link a {
+/* .link a {
     color: white;
     text-decoration: none;
-}
+} */
 
 footer p a {
     color: white;
@@ -48,6 +109,18 @@ footer p a {
 footer p {
     margin-bottom: 0;
 }
+
+
+
+/* 
+- come togliere hover sulla navbar?
+- come cambiare toggle sulla bav?
+- controllare comportamento button navbar fino a lg
+- img-fluid o w-100?
+- btn info7danger ecc
+- posizionare play-5-img?
+- card-img-top%card-text sezione nuove uscite
+ */
 
 
 
