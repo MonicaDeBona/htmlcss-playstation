@@ -80,7 +80,10 @@
 
 .card-hover:hover {
     opacity: 100%;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
+
 
 
 
