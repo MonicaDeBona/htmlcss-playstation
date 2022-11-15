@@ -3,11 +3,17 @@
     --sonybar-bg-color: black;
     --footer-bg-color: #00439c;
     --main-bg-color: #1f1f1f;
+    --main-bg-color1: #bebcbb;
+    --main-bg-color2: #161c3b;
+
     --orange-button: #cd3d0f;
     --gray-button: #363636;
     --blue-button: #2d64e6;
+    --light-gray-button: #d9dadc;
+
     --text-color: #117bd1;
     --text-color1: #727272;
+    --text-color2: #2d64e6;
 }
 
 .s-bar-bg {
@@ -16,6 +22,10 @@
 
 .g-btn {
     background-color: var(--gray-button);
+}
+
+.lg-btn {
+    background-color: var(--light-gray-button);
 }
 
 .o-btn {
@@ -30,6 +40,14 @@
     background-color: var(--main-bg-color);
 }
 
+.plus-bg {
+    background-color: var(--main-bg-color1);
+}
+
+.now-bg {
+    background-color: var(--main-bg-color2);
+}
+
 .bg-footer {
     background-color: var(--footer-bg-color);
 }
@@ -40,6 +58,10 @@
 
 .text-clr-g {
     color: var(--text-color1);
+}
+
+.text-clr-b {
+    color: var(--text-color2);
 }
 
 
@@ -88,19 +110,22 @@ body {
     background-size: cover;
 }
 
+.play-logo {
+    width: 150px;
+}
 
 .globe {
     width: 18px;
 }
 
-.sie {
+.sie-logo {
     width: 120px;
 }
 
-/* .link a {
+.link a {
     color: white;
     text-decoration: none;
-} */
+}
 
 footer p a {
     color: white;
@@ -120,6 +145,8 @@ footer p {
 - btn info7danger ecc
 - posizionare play-5-img?
 - card-img-top%card-text sezione nuove uscite
+- width play plus e now
+- logo play bianco
  */
 
 
