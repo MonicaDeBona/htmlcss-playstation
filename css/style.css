@@ -70,6 +70,22 @@
     color: var(--text-color2);
 }
 
+.border-b {
+    border: 3px solid var(--text-color);
+}
+
+.card-hover {
+    opacity: 50%;
+}
+
+.card-hover:hover {
+    opacity: 100%;
+}
+
+
+
+
+
 
 
 
@@ -114,8 +130,6 @@ nav h6 {
     text-align: center;
 }
 
-
-
 .sony-logo {
     width: 80px;
 }
@@ -128,6 +142,8 @@ nav h6 {
     background-size: cover;
     padding-top: 200px;
 }
+
+
 
 .op-img {
     opacity: 50%;
