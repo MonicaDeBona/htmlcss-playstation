@@ -6,13 +6,10 @@
     --main-bg-color: #1f1f1f;
     --main-bg-color1: #bebcbb;
     --main-bg-color2: #161c3b;
-
-
     --orange-button: #cd3d0f;
     --gray-button: #363636;
     --blue-button: #2d64e6;
     --light-gray-button: #d9dadc;
-
     --text-color: #117bd1;
     --text-color1: #727272;
     --text-color2: #2d64e6;
@@ -70,23 +67,50 @@
     color: var(--text-color2);
 }
 
-
-
-
-
 .border-b {
     border: 3px solid var(--text-color);
 }
 
-.card-hover {
-    opacity: 50%;
+
+/* HOVER BUTTON*/
+.g-btn:hover {
+    background-color: #2b2b2b;
 }
 
+.hover-btn:hover{
+    opacity: 100%;
+}
+
+
+/* HOVER sezione CARD*/
 .card-hover:hover {
+    transition: .3s ease-in-out;
     opacity: 100%;
     transform: translateY(-10px);
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
+
+/* HOVER HEADER */
+header .nav-link:hover {
+    color: var(--text-color);
+}
+
+
+nav:hover {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.shared-hover:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+/* HOVER HEADER */
+.p5-hover:hover {
+    transition: .3s ease-in-out;
+    opacity: 100%;
+}
+
+
 
 
 .my-wrapper {
@@ -96,39 +120,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
 }
 
-header {
-    z-index: 1;
-}
 
-.lens {
-    width: 1.5rem;
-}
-
+/* header&nav */
 header .nav-link {
     color: black;
 }
 
-header .nav-link:focus, 
-header .nav-link:hover {
-    color: var(--text-color);
-}
-
-nav:focus,
-nav:hover {
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-}
-
-
-
-.shared-hover:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-}
-
 nav h6 {
-    font-weight: bold;
     text-align: center;
 }
 
@@ -136,33 +136,49 @@ nav h6 {
     width: 80px;
 }
 
-.jumbo-returnal {
-    background-image: url(../img/jumbo-bg.png);
+.lens {
+    width: 1.5rem;
+}
+
+
+/* jumbo returnal */
+.jumbotron {
     background-repeat: no-repeat;
     background-position: center;
-    background-position: top;
     background-size: cover;
+    background-position: top;
+}
+
+.jumbo-returnal {
+    background-image: url(../img/jumbo-bg.png);
     padding-top: 200px;
 }
 
 
-
-.op-img {
+/* cards */
+.card-hover {
     opacity: 50%;
 }
 
-.op-img:hover {
-    opacity: 100%;
+/* play5 */
+.p5-hover {
+    opacity: 50%;
 }
 
+
+/* jumbo takes two */
 .jumbo-takes-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: top;
-    background-size: cover;
 }
 
+/* social media */
+.social,
+.store-hover:hover {
+    transition: .2s ease-in-out;
+    scale: 1.02;
+}
+
+/* footer*/
 .play-logo {
     width: 150px;
 }
@@ -183,16 +199,6 @@ nav h6 {
 footer p {
     margin-bottom: 0;
 }
-
-
-
-
-/* 
-- come cambiare toggle sulla bav?
-- btn info7danger ecc
-- posizionare play-5-img?
-
- */
 
 
 
