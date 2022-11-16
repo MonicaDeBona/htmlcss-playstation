@@ -6,11 +6,7 @@
     --main-bg-color: #1f1f1f;
     --main-bg-color1: #bebcbb;
     --main-bg-color2: #161c3b;
-    --orange-button: #cd3d0f;
-    --gray-button: #363636;
-    --blue-button: #2d64e6;
-    --light-gray-button: #d9dadc;
-    --text-color: #117bd1;
+    --text-color: #107ad0;
     --text-color1: #727272;
     --text-color2: #2d64e6;
 }
@@ -21,22 +17,6 @@
 
 .navbar-bg {
     background-color: var(--navbar-color);
-}
-
-.g-btn {
-    background-color: var(--gray-button);
-}
-
-.lg-btn {
-    background-color: var(--light-gray-button);
-}
-
-.o-btn {
-    background-color: var(--orange-button);
-}
-
-.b-btn {
-    background-color: var(--blue-button);
 }
 
 .nr-bg {
@@ -73,13 +53,7 @@
 
 
 /* HOVER BUTTON*/
-.g-btn:hover {
-    background-color: #2b2b2b;
-}
 
-.hover-btn:hover{
-    opacity: 100%;
-}
 
 
 /* HOVER sezione CARD*/
@@ -95,7 +69,6 @@ header .nav-link:hover {
     color: var(--text-color);
 }
 
-
 nav:hover {
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
@@ -104,22 +77,28 @@ nav:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
-/* HOVER HEADER */
+
 .p5-hover:hover {
     transition: .3s ease-in-out;
     opacity: 100%;
 }
 
-
-
-
 .my-wrapper {
-    width: 98%;
+    width: 95%;
     margin: auto;
 }
 
-body {
+nav {
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+}
+
+main {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
 }
 
 
@@ -165,6 +144,10 @@ nav h6 {
     opacity: 50%;
 }
 
+.play5 h6 {
+    font-size: .8rem;
+}
+
 
 /* jumbo takes two */
 .jumbo-takes-two {
@@ -172,15 +155,15 @@ nav h6 {
 }
 
 /* social media */
-.social,
-.store-hover:hover {
+
+.social-hover:hover {
     transition: .2s ease-in-out;
     scale: 1.02;
 }
 
 /* footer*/
 .play-logo {
-    width: 150px;
+    width: 6rem;
 }
 
 .globe {
